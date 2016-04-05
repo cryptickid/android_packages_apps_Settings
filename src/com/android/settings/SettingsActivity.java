@@ -82,6 +82,7 @@ import com.android.settings.applications.WriteSettingsDetails;
 import com.android.settings.blacklist.BlacklistSettings;
 import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.nexus.DisplayRotation;
+import com.android.settings.nexus.HeadsUpSettings;
 import com.android.settings.dashboard.DashboardCategory;
 import com.android.settings.dashboard.DashboardSummary;
 import com.android.settings.dashboard.DashboardTile;
@@ -129,6 +130,7 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
+import com.pure.settings.PureSettings;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -366,7 +368,9 @@ public class SettingsActivity extends Activity
             NotificationLightSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             DisplayRotation.class.getName(),
-            BlacklistSettings.class.getName()
+            BlacklistSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
+            PureSettings.class.getName()
     };
 
 
